@@ -28,7 +28,7 @@ xlrd
 
 
 ## Dataset preparation
-Please download skeleton data from [this link](https://arxiv.org/pdf/2103.06541.pdf), and unzip it in datasets folder.
+Please download skeleton data from [this link](https://arxiv.org/pdf/2103.06541.pdf), and unzip it in the current code folder.
 
 ## Usage
 We provide a demo code that has the complete development procedure, including data loading, model training and final evaluating.
@@ -47,8 +47,6 @@ Your can change the hyperparameters according to your needs in the main.py file.
 ## Build up your own models
 
 To access SMG samples, please see SMGaccessSample.py.
-
-
 
 ## License
 MIT-2.0 License
