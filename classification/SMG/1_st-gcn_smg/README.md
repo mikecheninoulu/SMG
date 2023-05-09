@@ -26,9 +26,9 @@ We show how to prepare the micro-gesture datasts: **SMG**.
 Before training and testing, for convenience of fast data loading,
 the datasets should be converted to proper file structure that can fit all the STGCN-based models.
 
-Download the training and validating datasets of iMiGUE from codalab, named 'datasets for phase 1 for the classification track'.
+Download the SMG datasets (1-35 for training and validating, 36-40 for testing).
 
-You can find the pre-processed data we prepared from the below path:
+Or you can find the [pre-processed data](https://drive.google.com/file/d/1fxHOmWrSjU5esZAa4p_Kqc-70QAPXXND/view?usp=share_link) we prepared  directly and put it to the below path:
 
 st-gcn_smg/data/SMGskeleton
 
