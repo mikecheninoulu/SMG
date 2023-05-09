@@ -28,7 +28,7 @@ xlrd
 
 
 ## Dataset preparation
-Please download skeleton data from [this link](https://arxiv.org/pdf/2103.06541.pdf), and unzip it in the current code folder.
+Please download skeleton data from [this link](https://drive.google.com/file/d/1kzDFunbJz5ZFvdIBpNDTxGV3kecyWyPK/view?usp=share_link), and unzip it in the current code folder.
 
 ## Usage
 We provide a demo code that has the complete development procedure, including data loading, model training and final evaluating.
