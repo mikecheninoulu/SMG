@@ -1,4 +1,4 @@
-# Start kit for SMG dataset on online recognition track
+# Start kit for SMG dataset on online recognition
 
 #### Citation
 
