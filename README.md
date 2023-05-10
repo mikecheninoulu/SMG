@@ -89,7 +89,7 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 
 | Methods | SMG dataset | - | - | iMiGUE dataset | - | - |
 | Methods | Rec | Acc | F1 score | Rec | Acc | F1 score |
-| :-----: | :-----: | :------: | :------: |
+| :-----: | :-----: | :------: | :------: | :------: | :------: | :------: |
 | FCN-sliding window | 0.082 | 0.110 | 0.094 | 0.059 | 0.067 | 0.063 | 
 | DBN-HMM | 0.128 | 0.167 | 0.145 | – | – | – | 
 | STABNet | 0.206 | 0.164 | 0.182 | 0.137 | 0.082 | 0.103 | 
