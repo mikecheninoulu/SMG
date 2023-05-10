@@ -84,9 +84,10 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 
 
 ### Comparison of MG online recognition accuracy (%) with state-of-the-art algorithms on the SMG dataset.
+
 <center> 
- 
-| Methods | SMG dataset |-| - | iMiGUE dataset | - | - |
+
+| Methods | SMG dataset | - | - | iMiGUE dataset | - | - |
 | Methods | Rec | Acc | F1 score | Rec | Acc | F1 score |
 | :-----: | :-----: | :------: | :------: |
 | FCN-sliding window | 0.082 | 0.110 | 0.094 | 0.059 | 0.067 | 0.063 | 
