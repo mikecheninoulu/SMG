@@ -60,7 +60,9 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 ## MethodZoo
 
 ### Comparison of MG classification accuracy (%) with state-of-the-art algorithms on the SMG dataset.
+
 <center>
+ 
 | Methods | Model+Modality | acc@top1 | acc@top5 |
 | :-----: | :-----: | :------: | :------: |
 | ST-GCN | Skeleton | 41.48 | 86.07 |
@@ -76,25 +78,14 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 | TSM | RGB | 58.69 | 83.93 |
 | TSN* | RGB | 53.61 | 81.98 |
 | TRN* | RGB | 60.00 | 91.97 |
-| TSM* | RGB | 65.41| 91.48 |
+| TSM* | RGB | 65.41 | 91.48 |
+ 
 </center>
 
-<center>
-
-| Methods | Model+Modality | Accuracy |
-| :-----: | :-----: | :------: |
-| TRN | CNN + RGB | 0.53 |
-| TSM | CNN + RGB | 0.53 |
-| I3D | CNN + RGB | 0.57 |
-| ST-GCN| GCN+Pose | 0.50 |
-| MS-G3D | GCN+Pose | 0.55 |
-| U-S-VAE + LSTM | RNN + Micro-Gesture | 0.55 |
-| TSM + LSTM | RNN + Micro-Gesture | 0.60 |
-</center>
 
 ### Comparison of MG online recognition accuracy (%) with state-of-the-art algorithms on the SMG dataset.
 <center> 
-| Methods | SMG dataset |   |   | iMiGUE dataset |   |   |
+| Methods | SMG dataset |-| - | iMiGUE dataset | - | - |
 | Methods | Rec | Acc | F1 score | Rec | Acc | F1 score |
 | :-----: | :-----: | :------: | :------: |
 | FCN-sliding window | 0.082 | 0.110 | 0.094 | 0.059 | 0.067 | 0.063 | 
