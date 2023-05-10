@@ -87,7 +87,7 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 
 <center> 
 
-| Methods | SMG dataset | - | - | iMiGUE dataset | - | - |
+| Datasets | SMG | - | - | iMiGUE | - | - |
 | :-----: | :-----: | :------: | :------: | :------: | :------: | :------: |
 | Methods | Rec | Acc | F1 score | Rec | Acc | F1 score |
 | FCN-sliding window | 0.082 | 0.110 | 0.094 | 0.059 | 0.067 | 0.063 | 
