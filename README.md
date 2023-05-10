@@ -85,6 +85,7 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 
 ### Comparison of MG online recognition accuracy (%) with state-of-the-art algorithms on the SMG dataset.
 <center> 
+ 
 | Methods | SMG dataset |-| - | iMiGUE dataset | - | - |
 | Methods | Rec | Acc | F1 score | Rec | Acc | F1 score |
 | :-----: | :-----: | :------: | :------: |
@@ -92,6 +93,7 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 | DBN-HMM | 0.128 | 0.167 | 0.145 | – | – | – | 
 | STABNet | 0.206 | 0.164 | 0.182 | 0.137 | 0.082 | 0.103 | 
 | AED-BiLSTM (Ours) |  0.173 | 0.245 | 0.203 | 0.166 | 0.177 | 0.171 |
+ 
 </center>
 
 ## Samplecode
