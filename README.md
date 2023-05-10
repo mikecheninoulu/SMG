@@ -35,7 +35,7 @@ We explore using body gestures for hidden emotional state analysis. As an import
 <br>
 
 <div align="center">
-<img src="pictures/SMG_short.gif">
+<img src="res/SMG_short.gif">
 </div>
 
 The Spontaneous Micro-Gesture (SMG) dataset comprises of 40 video sequences (821,056 frames in total, more than 8 hours) from 40 participants (each sequence lasts for around 15 minutes) with RGB, depth, silhouette video streams, and skeleton data. 40 participants are recruited from a European university with multicultural backgrounds (16 countries), 27 males and 13 females with an average age of 25.
@@ -45,7 +45,7 @@ The dataset contains 71 relaxed emotional state (RES) instances and 71 stressed 
 ### Micro-Gestures examples
 
 <div align="center">
-<img src="pictures/SMG.png">
+<img src="res/SMG.png">
 </div>
 
 Example scenarios to which MG recognition can be applied. In the interview or game, the subjects tend to hide their intentions, while MGs can leak their hidden emotions. 
