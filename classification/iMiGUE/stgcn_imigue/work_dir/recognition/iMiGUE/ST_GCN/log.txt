@@ -1,0 +1,333 @@
+[04.26.23|05:33:55] Parameters:
+{'work_dir': './work_dir/recognition/iMiGUE/ST_GCN', 'config': 'config/st_gcn/imigue/train.yaml', 'phase': 'train', 'save_result': True, 'start_epoch': 0, 'num_epoch': 8, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 1, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': './data/iMiGUE/imigue_processed/train_data.npy', 'label_path': './data/iMiGUE/imigue_processed/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/iMiGUE/imigue_processed/valid_data.npy', 'label_path': './data/iMiGUE/imigue_processed/valid_label.pkl'}, 'batch_size': 32, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 32, 'dropout': 0.1, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose22', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.0001, 'step': [4, 6], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 1e-05}
+
+[04.26.23|05:33:55] Training epoch: 0
+[04.26.23|05:33:55] 	Iter 0 Done. | loss: 3.5739 | lr: 0.000100
+[04.26.23|05:34:07] 	Iter 100 Done. | loss: 2.5342 | lr: 0.000100
+[04.26.23|05:34:18] 	Iter 200 Done. | loss: 2.3598 | lr: 0.000100
+[04.26.23|05:34:30] 	Iter 300 Done. | loss: 2.1297 | lr: 0.000100
+[04.26.23|05:34:42] 	Iter 400 Done. | loss: 2.3951 | lr: 0.000100
+[04.26.23|05:34:45] 	mean_loss: 2.552976133951817
+[04.26.23|05:34:45] Time consumption:
+[04.26.23|05:34:45] Done.
+[04.26.23|05:34:46] Eval epoch: 0
+[04.26.23|05:34:47] 	mean_loss: 2.221452731352586
+[04.26.23|05:34:47] 	Top1: 35.01%
+[04.26.23|05:34:47] 	Top5: 79.54%
+[04.26.23|05:34:47] Done.
+[04.26.23|05:34:47] Training epoch: 1
+[04.26.23|05:34:56] 	Iter 500 Done. | loss: 2.6786 | lr: 0.000100
+[04.26.23|05:35:08] 	Iter 600 Done. | loss: 2.3870 | lr: 0.000100
+[04.26.23|05:35:21] 	Iter 700 Done. | loss: 2.5228 | lr: 0.000100
+[04.26.23|05:35:33] 	Iter 800 Done. | loss: 2.0870 | lr: 0.000100
+[04.26.23|05:35:39] 	mean_loss: 2.221452361526757
+[04.26.23|05:35:39] Time consumption:
+[04.26.23|05:35:39] Done.
+[04.26.23|05:35:39] Eval epoch: 1
+[04.26.23|05:35:41] 	mean_loss: 2.2179281253081102
+[04.26.23|05:35:41] 	Top1: 26.90%
+[04.26.23|05:35:41] 	Top5: 79.02%
+[04.26.23|05:35:41] Done.
+[04.26.23|05:35:41] Training epoch: 2
+[04.26.23|05:35:47] 	Iter 900 Done. | loss: 2.6633 | lr: 0.000100
+[04.26.23|05:35:59] 	Iter 1000 Done. | loss: 1.9446 | lr: 0.000100
+[04.26.23|05:36:12] 	Iter 1100 Done. | loss: 2.1830 | lr: 0.000100
+[04.26.23|05:36:24] 	Iter 1200 Done. | loss: 1.8099 | lr: 0.000100
+[04.26.23|05:36:34] 	mean_loss: 2.1501381779722086
+[04.26.23|05:36:34] Time consumption:
+[04.26.23|05:36:34] Done.
+[04.26.23|05:36:34] Eval epoch: 2
+[04.26.23|05:36:36] 	mean_loss: 2.138363774006183
+[04.26.23|05:36:36] 	Top1: 26.38%
+[04.26.23|05:36:36] 	Top5: 80.18%
+[04.26.23|05:36:36] Done.
+[04.26.23|05:36:36] Training epoch: 3
+[04.26.23|05:36:38] 	Iter 1300 Done. | loss: 1.9478 | lr: 0.000100
+[04.26.23|05:36:50] 	Iter 1400 Done. | loss: 1.9517 | lr: 0.000100
+[04.26.23|05:37:03] 	Iter 1500 Done. | loss: 2.3187 | lr: 0.000100
+[04.26.23|05:37:15] 	Iter 1600 Done. | loss: 2.2278 | lr: 0.000100
+[04.26.23|05:37:27] 	Iter 1700 Done. | loss: 1.7390 | lr: 0.000100
+[04.26.23|05:37:28] 	mean_loss: 2.106267614442794
+[04.26.23|05:37:28] Time consumption:
+[04.26.23|05:37:28] Done.
+[04.26.23|05:37:28] Eval epoch: 3
+[04.26.23|05:37:30] 	mean_loss: 2.1078227299910326
+[04.26.23|05:37:30] 	Top1: 27.16%
+[04.26.23|05:37:30] 	Top5: 78.89%
+[04.26.23|05:37:30] Done.
+[04.26.23|05:37:30] Training epoch: 4
+[04.26.23|05:37:41] 	Iter 1800 Done. | loss: 2.4218 | lr: 0.000010
+[04.26.23|05:37:54] 	Iter 1900 Done. | loss: 2.1078 | lr: 0.000010
+[04.26.23|05:38:06] 	Iter 2000 Done. | loss: 2.0566 | lr: 0.000010
+[04.26.23|05:38:18] 	Iter 2100 Done. | loss: 2.1076 | lr: 0.000010
+[04.26.23|05:38:22] 	mean_loss: 2.0813432116698327
+[04.26.23|05:38:22] Time consumption:
+[04.26.23|05:38:22] Done.
+[04.26.23|05:38:22] Eval epoch: 4
+[04.26.23|05:38:24] 	mean_loss: 2.2039408408678494
+[04.26.23|05:38:24] 	Top1: 27.16%
+[04.26.23|05:38:24] 	Top5: 77.22%
+[04.26.23|05:38:24] Done.
+[04.26.23|05:38:24] Training epoch: 5
+[04.26.23|05:38:32] 	Iter 2200 Done. | loss: 1.9565 | lr: 0.000010
+[04.26.23|05:38:44] 	Iter 2300 Done. | loss: 1.8920 | lr: 0.000010
+[04.26.23|05:38:57] 	Iter 2400 Done. | loss: 1.8685 | lr: 0.000010
+[04.26.23|05:39:09] 	Iter 2500 Done. | loss: 2.6033 | lr: 0.000010
+[04.26.23|05:39:16] 	mean_loss: 2.074924866823737
+[04.26.23|05:39:16] Time consumption:
+[04.26.23|05:39:16] Done.
+[04.26.23|05:39:16] Eval epoch: 5
+[04.26.23|05:39:18] 	mean_loss: 2.1531031040044932
+[04.26.23|05:39:18] 	Top1: 27.03%
+[04.26.23|05:39:18] 	Top5: 77.86%
+[04.26.23|05:39:18] Done.
+[04.26.23|05:39:18] Training epoch: 6
+[04.26.23|05:39:23] 	Iter 2600 Done. | loss: 2.2134 | lr: 0.000001
+[04.26.23|05:39:35] 	Iter 2700 Done. | loss: 1.5807 | lr: 0.000001
+[04.26.23|05:39:48] 	Iter 2800 Done. | loss: 2.5549 | lr: 0.000001
+[04.26.23|05:40:00] 	Iter 2900 Done. | loss: 2.7035 | lr: 0.000001
+[04.26.23|05:40:11] 	mean_loss: 2.0705998990798165
+[04.26.23|05:40:11] Time consumption:
+[04.26.23|05:40:11] Done.
+[04.26.23|05:40:11] Eval epoch: 6
+[04.26.23|05:40:12] 	mean_loss: 2.1855388237879825
+[04.26.23|05:40:12] 	Top1: 27.03%
+[04.26.23|05:40:12] 	Top5: 77.22%
+[04.26.23|05:40:12] Done.
+[04.26.23|05:40:12] Training epoch: 7
+[04.26.23|05:40:14] 	Iter 3000 Done. | loss: 1.6919 | lr: 0.000001
+[04.26.23|05:40:26] 	Iter 3100 Done. | loss: 2.4319 | lr: 0.000001
+[04.26.23|05:40:39] 	Iter 3200 Done. | loss: 2.5398 | lr: 0.000001
+[04.26.23|05:40:51] 	Iter 3300 Done. | loss: 2.0732 | lr: 0.000001
+[04.26.23|05:41:03] 	Iter 3400 Done. | loss: 2.0542 | lr: 0.000001
+[04.26.23|05:41:05] 	mean_loss: 2.0688279708040405
+[04.26.23|05:41:05] Time consumption:
+[04.26.23|05:41:05] Done.
+[04.26.23|05:41:05] The model has been saved as ./work_dir/recognition/iMiGUE/ST_GCN/epoch8_model.pt.
+[04.26.23|05:41:05] Eval epoch: 7
+[04.26.23|05:41:07] 	mean_loss: 2.1520799215023336
+[04.26.23|05:41:07] 	Top1: 27.16%
+[04.26.23|05:41:07] 	Top5: 77.73%
+[04.26.23|05:41:07] Done.
+[04.26.23|05:41:18] Parameters:
+{'work_dir': './work_dir/recognition/iMiGUE/ST_GCN', 'config': 'config/st_gcn/imigue/train.yaml', 'phase': 'train', 'save_result': True, 'start_epoch': 0, 'num_epoch': 8, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 1, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': './data/iMiGUE/imigue_processed/train_data.npy', 'label_path': './data/iMiGUE/imigue_processed/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/iMiGUE/imigue_processed/valid_data.npy', 'label_path': './data/iMiGUE/imigue_processed/valid_label.pkl'}, 'batch_size': 32, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 32, 'dropout': 0.1, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose22', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.0001, 'step': [4, 6], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 1e-05}
+
+[04.26.23|05:41:18] Training epoch: 0
+[04.26.23|05:41:18] 	Iter 0 Done. | loss: 3.5570 | lr: 0.000100
+[04.26.23|05:41:30] 	Iter 100 Done. | loss: 2.4735 | lr: 0.000100
+[04.26.23|05:41:42] 	Iter 200 Done. | loss: 2.2523 | lr: 0.000100
+[04.26.23|05:41:54] 	Iter 300 Done. | loss: 2.5340 | lr: 0.000100
+[04.26.23|05:42:07] 	Iter 400 Done. | loss: 2.1212 | lr: 0.000100
+[04.26.23|05:42:10] 	mean_loss: 2.5640965404220153
+[04.26.23|05:42:10] Time consumption:
+[04.26.23|05:42:10] Done.
+[04.26.23|05:42:10] Eval epoch: 0
+[04.26.23|05:42:12] 	mean_loss: 2.1770168909659753
+[04.26.23|05:42:12] 	Top1: 32.56%
+[04.26.23|05:42:12] 	Top5: 79.67%
+[04.26.23|05:42:12] Done.
+[04.26.23|05:42:12] Training epoch: 1
+[04.26.23|05:42:21] 	Iter 500 Done. | loss: 1.8287 | lr: 0.000100
+[04.26.23|05:42:34] 	Iter 600 Done. | loss: 2.6399 | lr: 0.000100
+[04.26.23|05:42:46] 	Iter 700 Done. | loss: 2.2663 | lr: 0.000100
+[04.26.23|05:42:58] 	Iter 800 Done. | loss: 2.5824 | lr: 0.000100
+[04.26.23|05:43:04] 	mean_loss: 2.2260127095483786
+[04.26.23|05:43:04] Time consumption:
+[04.26.23|05:43:04] Done.
+[04.26.23|05:43:04] Eval epoch: 1
+[04.26.23|05:43:06] 	mean_loss: 2.0105828780394335
+[04.26.23|05:43:06] 	Top1: 36.16%
+[04.26.23|05:43:06] 	Top5: 82.50%
+[04.26.23|05:43:06] Done.
+[04.26.23|05:43:06] Training epoch: 2
+[04.26.23|05:43:12] 	Iter 900 Done. | loss: 2.1178 | lr: 0.000100
+[04.26.23|05:43:24] 	Iter 1000 Done. | loss: 2.0695 | lr: 0.000100
+[04.26.23|05:43:36] 	Iter 1100 Done. | loss: 2.3314 | lr: 0.000100
+[04.26.23|05:43:48] 	Iter 1200 Done. | loss: 2.1152 | lr: 0.000100
+[04.26.23|05:43:58] 	mean_loss: 2.1500015373252315
+[04.26.23|05:43:58] Time consumption:
+[04.26.23|05:43:58] Done.
+[04.26.23|05:43:58] Eval epoch: 2
+[04.26.23|05:44:00] 	mean_loss: 2.1718233732076793
+[04.26.23|05:44:00] 	Top1: 30.63%
+[04.26.23|05:44:00] 	Top5: 80.18%
+[04.26.23|05:44:00] Done.
+[04.26.23|05:44:00] Training epoch: 3
+[04.26.23|05:44:02] 	Iter 1300 Done. | loss: 2.0423 | lr: 0.000100
+[04.26.23|05:44:14] 	Iter 1400 Done. | loss: 1.7767 | lr: 0.000100
+[04.26.23|05:44:27] 	Iter 1500 Done. | loss: 2.2697 | lr: 0.000100
+[04.26.23|05:44:39] 	Iter 1600 Done. | loss: 2.1166 | lr: 0.000100
+[04.26.23|05:44:51] 	Iter 1700 Done. | loss: 2.0422 | lr: 0.000100
+[04.26.23|05:44:51] 	mean_loss: 2.112226575543227
+[04.26.23|05:44:51] Time consumption:
+[04.26.23|05:44:51] Done.
+[04.26.23|05:44:51] Eval epoch: 3
+[04.26.23|05:44:53] 	mean_loss: 2.242717532011179
+[04.26.23|05:44:53] 	Top1: 26.13%
+[04.26.23|05:44:53] 	Top5: 78.51%
+[04.26.23|05:44:53] Done.
+[04.26.23|05:44:53] Training epoch: 4
+[04.26.23|05:45:04] 	Iter 1800 Done. | loss: 2.7621 | lr: 0.000010
+[04.26.23|05:45:17] 	Iter 1900 Done. | loss: 2.2344 | lr: 0.000010
+[04.26.23|05:45:29] 	Iter 2000 Done. | loss: 1.8665 | lr: 0.000010
+[04.26.23|05:45:41] 	Iter 2100 Done. | loss: 1.7976 | lr: 0.000010
+[04.26.23|05:45:45] 	mean_loss: 2.0818660094531416
+[04.26.23|05:45:45] Time consumption:
+[04.26.23|05:45:45] Done.
+[04.26.23|05:45:45] Eval epoch: 4
+[04.26.23|05:45:47] 	mean_loss: 2.1868395438561072
+[04.26.23|05:45:47] 	Top1: 25.87%
+[04.26.23|05:45:47] 	Top5: 78.51%
+[04.26.23|05:45:47] Done.
+[04.26.23|05:45:47] Training epoch: 5
+[04.26.23|05:45:55] 	Iter 2200 Done. | loss: 1.9971 | lr: 0.000010
+[04.26.23|05:46:07] 	Iter 2300 Done. | loss: 2.2611 | lr: 0.000010
+[04.26.23|05:46:19] 	Iter 2400 Done. | loss: 1.9539 | lr: 0.000010
+[04.26.23|05:46:31] 	Iter 2500 Done. | loss: 2.1744 | lr: 0.000010
+[04.26.23|05:46:39] 	mean_loss: 2.075516675618549
+[04.26.23|05:46:39] Time consumption:
+[04.26.23|05:46:39] Done.
+[04.26.23|05:46:39] Eval epoch: 5
+[04.26.23|05:46:40] 	mean_loss: 2.100756883621216
+[04.26.23|05:46:40] 	Top1: 27.67%
+[04.26.23|05:46:40] 	Top5: 78.25%
+[04.26.23|05:46:40] Done.
+[04.26.23|05:46:40] Training epoch: 6
+[04.26.23|05:46:45] 	Iter 2600 Done. | loss: 1.8157 | lr: 0.000001
+[04.26.23|05:46:57] 	Iter 2700 Done. | loss: 1.7450 | lr: 0.000001
+[04.26.23|05:47:09] 	Iter 2800 Done. | loss: 2.1649 | lr: 0.000001
+[04.26.23|05:47:21] 	Iter 2900 Done. | loss: 2.3653 | lr: 0.000001
+[04.26.23|05:47:32] 	mean_loss: 2.0737552765660876
+[04.26.23|05:47:32] Time consumption:
+[04.26.23|05:47:32] Done.
+[04.26.23|05:47:32] Eval epoch: 6
+[04.26.23|05:47:33] 	mean_loss: 1.8746488919624915
+[04.26.23|05:47:33] 	Top1: 42.86%
+[04.26.23|05:47:33] 	Top5: 83.40%
+[04.26.23|05:47:33] Done.
+[04.26.23|05:47:33] Training epoch: 7
+[04.26.23|05:47:35] 	Iter 3000 Done. | loss: 2.0148 | lr: 0.000001
+[04.26.23|05:47:47] 	Iter 3100 Done. | loss: 2.3212 | lr: 0.000001
+[04.26.23|05:47:59] 	Iter 3200 Done. | loss: 1.9647 | lr: 0.000001
+[04.26.23|05:48:11] 	Iter 3300 Done. | loss: 1.7791 | lr: 0.000001
+[04.26.23|05:48:23] 	Iter 3400 Done. | loss: 1.8014 | lr: 0.000001
+[04.26.23|05:48:25] 	mean_loss: 2.0739419116906874
+[04.26.23|05:48:25] Time consumption:
+[04.26.23|05:48:25] Done.
+[04.26.23|05:48:25] The model has been saved as ./work_dir/recognition/iMiGUE/ST_GCN/epoch8_model.pt.
+[04.26.23|05:48:25] Eval epoch: 7
+[04.26.23|05:48:27] 	mean_loss: 2.2685933663294864
+[04.26.23|05:48:27] 	Top1: 26.00%
+[04.26.23|05:48:27] 	Top5: 77.73%
+[04.26.23|05:48:27] Done.
+[04.26.23|06:55:42] Parameters:
+{'work_dir': './work_dir/recognition/iMiGUE/ST_GCN', 'config': 'config/st_gcn/imigue/train.yaml', 'phase': 'train', 'save_result': True, 'start_epoch': 0, 'num_epoch': 8, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 1, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': './data/iMiGUE/imigue_processed/train_data.npy', 'label_path': './data/iMiGUE/imigue_processed/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/iMiGUE/imigue_processed/valid_data.npy', 'label_path': './data/iMiGUE/imigue_processed/valid_label.pkl'}, 'batch_size': 32, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 32, 'dropout': 0.1, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose22', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.0001, 'step': [4, 6], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 1e-05}
+
+[04.26.23|06:55:42] Training epoch: 0
+[04.26.23|06:55:42] 	Iter 0 Done. | loss: 3.4748 | lr: 0.000100
+[04.26.23|06:55:54] 	Iter 100 Done. | loss: 2.5815 | lr: 0.000100
+[04.26.23|06:56:05] 	Iter 200 Done. | loss: 2.3850 | lr: 0.000100
+[04.26.23|06:56:17] 	Iter 300 Done. | loss: 2.2911 | lr: 0.000100
+[04.26.23|06:56:28] 	Iter 400 Done. | loss: 2.3749 | lr: 0.000100
+[04.26.23|06:56:31] 	mean_loss: 2.5027270143986864
+[04.26.23|06:56:31] Time consumption:
+[04.26.23|06:56:31] Done.
+[04.26.23|06:56:31] Eval epoch: 0
+[04.26.23|06:56:33] 	mean_loss: 2.0928162244650035
+[04.26.23|06:56:33] 	Top1: 35.26%
+[04.26.23|06:56:33] 	Top5: 81.85%
+[04.26.23|06:56:33] Done.
+[04.26.23|06:56:33] Training epoch: 1
+[04.26.23|06:56:42] 	Iter 500 Done. | loss: 2.2751 | lr: 0.000100
+[04.26.23|06:56:53] 	Iter 600 Done. | loss: 2.2467 | lr: 0.000100
+[04.26.23|06:57:05] 	Iter 700 Done. | loss: 2.0306 | lr: 0.000100
+[04.26.23|06:57:17] 	Iter 800 Done. | loss: 2.0113 | lr: 0.000100
+[04.26.23|06:57:24] 	mean_loss: 2.191086624210277
+[04.26.23|06:57:24] Time consumption:
+[04.26.23|06:57:24] Done.
+[04.26.23|06:57:24] Eval epoch: 1
+[04.26.23|06:57:25] 	mean_loss: 2.050216106268076
+[04.26.23|06:57:25] 	Top1: 31.02%
+[04.26.23|06:57:25] 	Top5: 81.21%
+[04.26.23|06:57:25] Done.
+[04.26.23|06:57:25] Training epoch: 2
+[04.26.23|06:57:31] 	Iter 900 Done. | loss: 2.1278 | lr: 0.000100
+[04.26.23|06:57:43] 	Iter 1000 Done. | loss: 1.8575 | lr: 0.000100
+[04.26.23|06:57:55] 	Iter 1100 Done. | loss: 2.0246 | lr: 0.000100
+[04.26.23|06:58:07] 	Iter 1200 Done. | loss: 1.8839 | lr: 0.000100
+[04.26.23|06:58:16] 	mean_loss: 2.0996254182811085
+[04.26.23|06:58:16] Time consumption:
+[04.26.23|06:58:16] Done.
+[04.26.23|06:58:16] Eval epoch: 2
+[04.26.23|06:58:18] 	mean_loss: 2.0561441824986386
+[04.26.23|06:58:18] 	Top1: 31.02%
+[04.26.23|06:58:18] 	Top5: 79.54%
+[04.26.23|06:58:18] Done.
+[04.26.23|06:58:18] Training epoch: 3
+[04.26.23|06:58:21] 	Iter 1300 Done. | loss: 2.5598 | lr: 0.000100
+[04.26.23|06:58:33] 	Iter 1400 Done. | loss: 1.7847 | lr: 0.000100
+[04.26.23|06:58:44] 	Iter 1500 Done. | loss: 2.5213 | lr: 0.000100
+[04.26.23|06:58:56] 	Iter 1600 Done. | loss: 2.2416 | lr: 0.000100
+[04.26.23|06:59:09] 	Iter 1700 Done. | loss: 2.2147 | lr: 0.000100
+[04.26.23|06:59:10] 	mean_loss: 2.033633632738082
+[04.26.23|06:59:10] Time consumption:
+[04.26.23|06:59:10] Done.
+[04.26.23|06:59:10] Eval epoch: 3
+[04.26.23|06:59:11] 	mean_loss: 2.0178953409194946
+[04.26.23|06:59:11] 	Top1: 38.10%
+[04.26.23|06:59:11] 	Top5: 81.60%
+[04.26.23|06:59:11] Done.
+[04.26.23|06:59:11] Training epoch: 4
+[04.26.23|06:59:23] 	Iter 1800 Done. | loss: 2.0006 | lr: 0.000010
+[04.26.23|06:59:34] 	Iter 1900 Done. | loss: 2.0295 | lr: 0.000010
+[04.26.23|06:59:46] 	Iter 2000 Done. | loss: 1.8459 | lr: 0.000010
+[04.26.23|06:59:58] 	Iter 2100 Done. | loss: 2.0382 | lr: 0.000010
+[04.26.23|07:00:03] 	mean_loss: 1.9932813457359475
+[04.26.23|07:00:03] Time consumption:
+[04.26.23|07:00:03] Done.
+[04.26.23|07:00:03] Eval epoch: 4
+[04.26.23|07:00:04] 	mean_loss: 2.0553725224274855
+[04.26.23|07:00:04] 	Top1: 35.91%
+[04.26.23|07:00:04] 	Top5: 81.72%
+[04.26.23|07:00:04] Done.
+[04.26.23|07:00:04] Training epoch: 5
+[04.26.23|07:00:12] 	Iter 2200 Done. | loss: 1.7966 | lr: 0.000010
+[04.26.23|07:00:24] 	Iter 2300 Done. | loss: 2.6189 | lr: 0.000010
+[04.26.23|07:00:36] 	Iter 2400 Done. | loss: 1.8748 | lr: 0.000010
+[04.26.23|07:00:48] 	Iter 2500 Done. | loss: 1.9116 | lr: 0.000010
+[04.26.23|07:00:56] 	mean_loss: 1.9803073660272066
+[04.26.23|07:00:56] Time consumption:
+[04.26.23|07:00:56] Done.
+[04.26.23|07:00:56] Eval epoch: 5
+[04.26.23|07:00:57] 	mean_loss: 2.094050168991089
+[04.26.23|07:00:57] 	Top1: 35.65%
+[04.26.23|07:00:57] 	Top5: 80.82%
+[04.26.23|07:00:57] Done.
+[04.26.23|07:00:57] Training epoch: 6
+[04.26.23|07:01:02] 	Iter 2600 Done. | loss: 2.0363 | lr: 0.000001
+[04.26.23|07:01:14] 	Iter 2700 Done. | loss: 1.9796 | lr: 0.000001
+[04.26.23|07:01:26] 	Iter 2800 Done. | loss: 2.0242 | lr: 0.000001
+[04.26.23|07:01:38] 	Iter 2900 Done. | loss: 1.8380 | lr: 0.000001
+[04.26.23|07:01:49] 	mean_loss: 1.9755996694609488
+[04.26.23|07:01:49] Time consumption:
+[04.26.23|07:01:49] Done.
+[04.26.23|07:01:49] Eval epoch: 6
+[04.26.23|07:01:51] 	mean_loss: 2.079738525243906
+[04.26.23|07:01:51] 	Top1: 36.55%
+[04.26.23|07:01:51] 	Top5: 80.31%
+[04.26.23|07:01:51] Done.
+[04.26.23|07:01:51] Training epoch: 7
+[04.26.23|07:01:52] 	Iter 3000 Done. | loss: 1.6840 | lr: 0.000001
+[04.26.23|07:02:04] 	Iter 3100 Done. | loss: 1.6290 | lr: 0.000001
+[04.26.23|07:02:16] 	Iter 3200 Done. | loss: 2.0838 | lr: 0.000001
+[04.26.23|07:02:28] 	Iter 3300 Done. | loss: 1.9835 | lr: 0.000001
+[04.26.23|07:02:40] 	Iter 3400 Done. | loss: 1.9650 | lr: 0.000001
+[04.26.23|07:02:42] 	mean_loss: 1.9710475128205096
+[04.26.23|07:02:42] Time consumption:
+[04.26.23|07:02:42] Done.
+[04.26.23|07:02:42] The model has been saved as ./work_dir/recognition/iMiGUE/ST_GCN/epoch8_model.pt.
+[04.26.23|07:02:42] Eval epoch: 7
+[04.26.23|07:02:44] 	mean_loss: 2.0377504917291493
+[04.26.23|07:02:44] 	Top1: 36.55%
+[04.26.23|07:02:44] 	Top5: 81.60%
+[04.26.23|07:02:44] Done.
