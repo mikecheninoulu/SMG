@@ -98,6 +98,7 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 
 ## Samplecode
 Please go into ''classification'' folder and see README for the implementation of classification.
+
 Please go into ''online recognition'' folder and see README for the implementation of online recognition.
 
 ## Citation
