@@ -1,0 +1,24 @@
+weights: ./work_dir/recognition/iMiGUE/ST_GCN/epoch30_model.pt
+work_dir: ./work_dir/recognition/iMiGUE/ST_GCN/
+# feeder
+feeder: feeder.feeder.Feeder
+test_feeder_args:
+  data_path: ./data/iMiGUE/imigue_processed/valid_data.npy
+  label_path: ./data/iMiGUE/imigue_processed/valid_label.pkl
+
+# model
+model: net.st_gcn.Model
+model_args:
+  in_channels: 3
+  num_class: 32
+  dropout: 0.1
+  edge_importance_weighting: True
+  graph_args:
+    layout: 'openpose22'
+    strategy: 'spatial'
+
+# test 
+phase: test
+device: 0
+test_batch_size: 64
+
