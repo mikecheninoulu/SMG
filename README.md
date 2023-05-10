@@ -79,6 +79,19 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 | TSM* | RGB | 65.41| 91.48 |
 </center>
 
+<center>
+
+| Methods | Model+Modality | Accuracy |
+| :-----: | :-----: | :------: |
+| TRN | CNN + RGB | 0.53 |
+| TSM | CNN + RGB | 0.53 |
+| I3D | CNN + RGB | 0.57 |
+| ST-GCN| GCN+Pose | 0.50 |
+| MS-G3D | GCN+Pose | 0.55 |
+| U-S-VAE + LSTM | RNN + Micro-Gesture | 0.55 |
+| TSM + LSTM | RNN + Micro-Gesture | 0.60 |
+</center>
+
 ### Comparison of MG online recognition accuracy (%) with state-of-the-art algorithms on the SMG dataset.
 <center> 
 | Methods | SMG dataset |   |   | iMiGUE dataset |   |   |
