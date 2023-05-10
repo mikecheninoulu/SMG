@@ -28,6 +28,13 @@ We explore using body gestures for hidden emotional state analysis. As an import
 
 
 ## Data
+### Micro-Gestures examples
+
+<div align="center">
+<img src="res/SMG.png">
+</div>
+
+Example scenarios to which MG recognition can be applied. In the interview or game, the subjects tend to hide their intentions, while MGs can leak their hidden emotions. 
 ### Dataset Statistics and Properties
 <div align="center">
     <img src="res/smg.png">
@@ -42,13 +49,6 @@ The Spontaneous Micro-Gesture (SMG) dataset comprises of 40 video sequences (821
 
 The dataset contains 71 relaxed emotional state (RES) instances and 71 stressed emotional state (SES instances). Lengths of those instances range from two to five minutes. Each participant contributes two instances or four instances (half are RESs and half are SESs). 3,692 gesture clips are labeled manually, and the average length of those MGs is 51.3 frames.
 
-### Micro-Gestures examples
-
-<div align="center">
-<img src="res/SMG.png">
-</div>
-
-Example scenarios to which MG recognition can be applied. In the interview or game, the subjects tend to hide their intentions, while MGs can leak their hidden emotions. 
 
 ### Download
 Please go to this [link](https://www.oulu.fi/en/university/faculties-and-units/faculty-information-technology-and-electrical-engineering/center-machine-vision-and-signal-analysis#accordion-control-imigue-database) for full version of the SMG dataset (RBG, skeleton and emotion states).
@@ -58,6 +58,7 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 
 
 ## MethodZoo
+
 ### Comparison of MG classification accuracy (%) with state-of-the-art algorithms on the SMG dataset.
 <center>
 | Methods | Model+Modality | acc@top1 | acc@top5 |
@@ -90,7 +91,6 @@ Or you can only download the skeleton modality of the SMG dataset via Codalab pl
 </center>
 
 ## Samplecode
-
 Please go into ''classification'' folder and see README for the implementation of classification.
 Please go into ''online recognition'' folder and see README for the implementation of online recognition.
 
